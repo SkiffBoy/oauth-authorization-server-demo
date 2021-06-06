@@ -5,7 +5,7 @@
 
     <groupId>com.baeldung</groupId>
     <artifactId>spring-authorization-server</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -34,8 +34,7 @@
         <dependency>
             <groupId>org.springframework.security.experimental</groupId>
             <artifactId>spring-security-oauth2-authorization-server</artifactId>
-            <!-- 此处版本不可升级为0.1.1，原因待定 -->
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </dependency>
     </dependencies>
 

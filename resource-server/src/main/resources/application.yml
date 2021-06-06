@@ -8,7 +8,7 @@ logging:
     org.springframework.security: INFO
     org.springframework.security.oauth2: INFO
 
-authorization-server: http://127.0.0.1:9000
+authorization-server: http://localhost:9000
 
 spring:
   security:
@@ -16,4 +16,4 @@ spring:
       resourceserver:
         jwt:
           jwk-set-uri: "${authorization-server}/oauth2/jwks"
-#          issuer-uri: http://127.0.0.1:9000
+#          issuer-uri: http://localhost:9000
